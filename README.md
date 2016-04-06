@@ -7,7 +7,7 @@ motifsim_master.py is the master file of the simulation. Options used to indicat
 Use --help option for more information on parameter options.
 
 Example command line way to run a simulation (consisting of 2 trials of 100 rounds each, with various other parameters):
-python motifsim_master.py --trials=2 --maxStrands=10 --maxStrandLength=7 --numCells=10 --numRounds=100 --motif=10000 --elong=0.05 --bias=0.5
+python motifsim_master.py --trials=2 --maxStrands=10 --maxStrandLength=7 --numCells=10 --numRounds=100 --motif=10000 --elong=0.05 --bias=0.5 --testprefix=Test1
 
 List of other necessary files:
 motifsim_trial.py; runs a trial of the simulation
